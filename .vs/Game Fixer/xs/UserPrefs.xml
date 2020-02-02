@@ -1,10 +1,20 @@
 ﻿<Properties StartupConfiguration="{81118F3E-9CB7-BD0F-C64F-CD5AFBD4B62D}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Snake.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameAssets.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/GameHandler.cs" Line="28" Column="29" />
+      <File FileName="Assets/Scripts/LevelGrid.cs" Line="33" Column="1" />
+      <File FileName="Assets/Scripts/Snake.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Game Fixer" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Snake.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>

@@ -63,6 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CodeMonkey\Assets.cs" />
+    <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\Button_UI.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\ComponentActions.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
     <Compile Include="Assets\GameFixer\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\GameFixer\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\GameFixer\Joystick Pack\Scripts\Base\Joystick.cs" />
@@ -108,12 +123,17 @@
     <Compile Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\GameAssets.cs" />
+    <Compile Include="Assets\Scripts\GameHandler.cs" />
+    <Compile Include="Assets\Scripts\LevelGrid.cs" />
+    <Compile Include="Assets\Scripts\Snake.cs" />
     <None Include="Assets\GameFixer\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\GameFixer\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\GameFixer\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\GameFixer\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\CodeMonkey\README.txt" />
     <None Include="Assets\GameFixer\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\GameFixer\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\GameFixer\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
