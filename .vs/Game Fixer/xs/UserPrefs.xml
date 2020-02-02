@@ -1,19 +1,26 @@
 ﻿<Properties StartupConfiguration="{81118F3E-9CB7-BD0F-C64F-CD5AFBD4B62D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Snake.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameFixer/Scripts/Zoom.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameAssets.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/GameHandler.cs" Line="28" Column="29" />
-      <File FileName="Assets/Scripts/LevelGrid.cs" Line="33" Column="1" />
-      <File FileName="Assets/Scripts/Snake.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFixer/Scripts/Zoom.cs" Line="3" Column="12" IsPinned="True" />
+      <File FileName="Assets/Scripts/GameAssets.cs" Line="4" Column="43" />
+      <File FileName="Assets/Scripts/GameHandler.cs" Line="28" Column="40" />
+      <File FileName="Assets/Scripts/LevelGrid.cs" Line="43" Column="84" />
+      <File FileName="Assets/Scripts/Snake.cs" Line="116" Column="37" />
+      <File FileName="Assets/GameFixer/Scripts/PanZoom.cs" Line="47" Column="13" />
+      <File FileName="Assets/GameFixer/Scripts/PlayerMovement.cs" Line="63" Column="13" />
+      <File FileName="Assets/GameFixer/Scripts/MenuActions.cs" Line="25" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Game Fixer" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Snake.cs" selected="True" />
+              <Node name="GameFixer" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="PlayerMovement.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -15,12 +15,15 @@ EditorBuildSettings:
     path: Assets/GameFixer/Scenes/Room.unity
     guid: b80a054b94ee04eb48cdcf2d2e44fad1
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 239316e5ea527c54aa0e54c75b6c6d66
+    path: Assets/GameFixer/Scenes/LevelDetials2.unity
+    guid: 405b8893f77574b77855413ca63be0c4
   - enabled: 1
-    path: Assets/Scenes/Loading.unity
-    guid: 70993040d31ef814bb40878640613be4
+    path: Assets/GameFixer/Scenes/PingBong.unity
+    guid: 6b119c942de6d40cbb3322f890ecca3c
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: d5c0be72797afa54f8f5881dd3d063f6
+    path: Assets/GameFixer/Scenes/BingBong2.unity
+    guid: 89a84548859e3b643b4fb27984dc2b0d
+  - enabled: 1
+    path: Assets/GameFixer/Scenes/RoomSnake.unity
+    guid: 8789e625d146f4baf8d0bf137b7169a2
   m_configObjects: {}

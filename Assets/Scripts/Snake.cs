@@ -40,12 +40,14 @@ public class Snake : MonoBehaviour {
     private List<SnakeMovePosition> snakeMovePositionList;
     private List<SnakeBodyPart> snakeBodyPartList;
 
+    public Joystick joystick;
+
     public void Setup(LevelGrid levelGrid) {
         this.levelGrid = levelGrid;
     }
 
     private void Awake() {
-        gridPosition = new Vector2Int(8, 5);
+        gridPosition = new Vector2Int(11, 9);
         gridMoveTimerMax = .2f;
         gridMoveTimer = gridMoveTimerMax;
         gridMoveDirection = Direction.Right;
@@ -56,6 +58,7 @@ public class Snake : MonoBehaviour {
         snakeBodyPartList = new List<SnakeBodyPart>();
 
         state = State.Alive;
+        joystick.enabled = false;
     }
 
     private void Update() {
@@ -69,25 +72,51 @@ public class Snake : MonoBehaviour {
         }
     }
 
-    private void HandleInput() {
-        if (Input.GetKeyDown(KeyCode.UpArrow)) {
-            if (gridMoveDirection != Direction.Down) {
+    private void HandleInput()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (gridMoveDirection != Direction.Down)
+            {
                 gridMoveDirection = Direction.Up;
             }
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow)) {
-            if (gridMoveDirection != Direction.Up) {
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (gridMoveDirection != Direction.Up)
+            {
                 gridMoveDirection = Direction.Down;
             }
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-            if (gridMoveDirection != Direction.Right) {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (gridMoveDirection != Direction.Right)
+            {
                 gridMoveDirection = Direction.Left;
             }
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow)) {
-            if (gridMoveDirection != Direction.Left) {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (gridMoveDirection != Direction.Left)
+            {
                 gridMoveDirection = Direction.Right;
+            }
+        }
+
+        if (Input.touchCount == 1)
+        {
+            if (gridMoveDirection == Direction.Down)
+            {
+                gridMoveDirection = Direction.Right;
+            } else if (gridMoveDirection == Direction.Right)
+            {
+                gridMoveDirection = Direction.Up;
+            } else if (gridMoveDirection == Direction.Up)
+            {
+                gridMoveDirection = Direction.Left;
+            } else if (gridMoveDirection == Direction.Left)
+            {
+                gridMoveDirection = Direction.Down;
             }
         }
     }

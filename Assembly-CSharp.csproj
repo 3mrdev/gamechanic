@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BingBong\Ball.cs" />
+    <Compile Include="Assets\BingBong\MoveRacket.cs" />
     <Compile Include="Assets\CodeMonkey\Assets.cs" />
     <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
@@ -85,11 +87,15 @@
     <Compile Include="Assets\GameFixer\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\GameFixer\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\GameFixer\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\GameFixer\Scripts\Con.cs" />
     <Compile Include="Assets\GameFixer\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\GameFixer\Scripts\MenuActions.cs" />
+    <Compile Include="Assets\GameFixer\Scripts\NewMonoBehaviour.cs" />
     <Compile Include="Assets\GameFixer\Scripts\PanZoom.cs" />
     <Compile Include="Assets\GameFixer\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\GameFixer\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\GameFixer\Scripts\Zoom.cs" />
+    <Compile Include="Assets\GameFixer\Scripts\ZoomInZoomOut.cs" />
     <Compile Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\GameFixer\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

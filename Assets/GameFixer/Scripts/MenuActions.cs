@@ -6,7 +6,7 @@ public class MenuActions : MonoBehaviour
 
     public void ZoomOne()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(6);
     }
 
     public void GoLevel1()
@@ -14,4 +14,18 @@ public class MenuActions : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
+    public void GoLevel2()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void ZoomTwo()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void ZoomThree()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
