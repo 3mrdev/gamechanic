@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameFixer/Scenes/RoomSnake.unity
     guid: 8789e625d146f4baf8d0bf137b7169a2
+  - enabled: 1
+    path: Assets/GameFixer/Scenes/ComputerSc.unity
+    guid: 37f1ddceca0c14c3ab0fb85494838284
   m_configObjects: {}

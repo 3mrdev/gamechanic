@@ -1,4 +1,0 @@
-#Sun Feb 02 15:56:59 CAT 2020
-base.0=/Users/mac/games/Game Fixer/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
